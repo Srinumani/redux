@@ -1,0 +1,114 @@
+ 
+/* Forms.css */
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background-color: rgb(192, 192, 229);
+}
+.form-container{
+  text-align: center;
+  margin-top: 5rem;
+}
+.todo-input {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.add-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+/* TodoList.css */
+.todo-list {
+  width:50%;
+  margin:30px auto;
+  border-radius: 1px;
+  padding: 7px;
+}
+.todo-item{
+  color:white;
+  display: flex;
+  justify-content:  space-between;
+  background-color: rgb(42, 34, 85);
+  margin-bottom: 30px;
+  padding: 5px;
+  text-transform: capitalize;
+} 
+.first-conatiner{
+  display: flex;
+  gap:20px;
+}
+.completed {
+  text-decoration: line-through;
+  color: #11c014; /* Color for completed tasks */
+}
+
+.not-completed {
+  color: #fdf7f7; /* Color for incomplete tasks */
+}
+ 
+.home-container{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top:15rem;
+}
+.todo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid black;
+  background-color: rgba(25, 11, 229, 0.492);
+  color:white;
+  cursor: pointer;
+  padding:30px;
+}
+/* CSS for Navbar */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px;
+}
+
+.nav h4 {
+  margin: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.nav h4:hover {
+  cursor: pointer;
+}
+
+.links{
+  text-decoration: none;
+  color: white;
+  
+}
+.heading{
+  text-align: center;
+}
+.button-delete{
+  background-color: red;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+}
+  
